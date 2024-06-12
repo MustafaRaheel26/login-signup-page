@@ -6,7 +6,7 @@ document.getElementById("login-form").addEventListener("submit", function(event)
     if (storedUser && JSON.parse(storedUser).password === password) {
       alert("Login successful!");
     } else {
-      alert("Invalid username or password");
+      alert("Invalid username or password!");
     }
   });
   
